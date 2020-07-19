@@ -1,0 +1,24 @@
+ccxt==1.18.119
+SQLAlchemy==1.2.15
+python-telegram-bot==11.1.0
+arrow==0.13.0
+cachetools==3.0.0
+requests==2.21.0
+urllib3==1.24.1
+wrapt==1.11.0
+pandas==0.23.4
+scikit-learn==0.20.2
+joblib==0.13.0
+scipy==1.2.0
+jsonschema==2.6.0
+numpy==1.15.4
+TA-Lib==0.4.17
+tabulate==0.8.2
+coinmarketcap==5.0.3
+python-rapidjson
+
+# Required for hyperopt
+scikit-optimize==0.5.2
+
+# find first, C search in arrays
+py_find_1st==1.1.3
