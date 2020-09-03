@@ -1,9 +1,9 @@
 {
-    "max_open_trades": 15,
-    "stake_currency": "BTC",
-    "stake_amount": 0.01,
-    "fiat_display_currency": "USD",
-    "ticker_interval" : "1h",
+    "max_open_trades": y,
+    "stake_currency": "y",
+    "stake_amount": y,
+    "fiat_display_currency": "y",
+    "ticker_interval" : "5m",
     "dry_run": true,
     "trailing_stop": false,
     "unfilledtimeout": {
@@ -25,7 +25,7 @@
         "order_book_max": 9
     },
     "exchange": {
-        "name": "binance",
+        "name": "bittrex",
         "key": "BXM4FYaBWZyjIBbhgcaqGu6ery7BTcgplfAocF6uR0VPldAhHBpLgLXZ5iiXPSX0",
         "secret": "iY5nroaykWuZ7NwWipwDIaAU1xdDgJptrcWI9mUNYC4dUKyCTnmiaaEBYee02Pi4",
         "ccxt_config": {"enableRateLimit": true},
@@ -48,7 +48,7 @@
         ]
     },
     "experimental": {
-        "use_sell_signal": true,
+        "use_sell_signal": false,
         "sell_profit_only": false,
         "ignore_roi_if_buy_signal": false
     },
